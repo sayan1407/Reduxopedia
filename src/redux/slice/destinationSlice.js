@@ -5,20 +5,20 @@ const initialState = {
         {
             name : "Kashmir",
             days  : 7,
-            Fact : ""
+            fact : "Heaven on earth"
         },
         {
-            name : "Kashmir",
+            name : "Jaipur",
             days  : 7,
-            Fact : ""
+            fact : "Pink City"
         },
         {
-            name : "Kashmir",
+            name : "Kanpur",
             days  : 7,
-            Fact : ""
+            fact : "Orange City"
         }
     ],
-    destinationSelected : null
+    destinationSelected : undefined
 }
 export const detinationSlice = createSlice({
     name : "destination",
